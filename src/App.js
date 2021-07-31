@@ -1,10 +1,11 @@
 import React from 'react';
+import CustomizedTables from "./components";
 
 function App() {
   return (
     <header>
       <p>
-        Edit <code>App.js</code> and save to reload
+        <CustomizedTables/>
       </p>
     </header>
   );
