@@ -14,3 +14,6 @@ export const roleStatuses = () => [
   { key: 20, value: 'active', label: 'Active' },
   { key: 30, value: 'archived', label: 'Archived' }
 ];
+
+
+export const columns = ['Candidate Name', 'Status', '# Apps', 'Last Action']
